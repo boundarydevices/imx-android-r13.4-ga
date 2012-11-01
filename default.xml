@@ -13,6 +13,10 @@
   <remote  name="github"
            fetch="https://github.com/" />
 
+  <!-- Boundary Devices kernel and U-Boot -->
+  <project path="kernel_imx" name="linux-imx6" revision="boundary-imx-android-r13.4-ga" remote="boundary-github" />
+  <project path="bootable/bootloader/uboot-imx" name="u-boot-2009-08" revision="boundary-imx-android-r13.4-ga" remote="boundary-github" />
+
   <!-- Freescale proprietary -->
   <project path="device/fsl" name="device/fsl.git" remote="boundary-linode" revision="imx_r13.4-ga" />
   <project path="device/fsl-proprietary" name="fsl-proprietary.git" remote="boundary-linode" revision="imx_r13.4-ga" />
