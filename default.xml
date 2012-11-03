@@ -35,7 +35,7 @@
   <project path="system/dispd" name="android_system_dispd" remote="boundary-github" revision="imx_r13.4-ga" />
 
   <!-- Freescale updates to AOSP projects, open source -->
-  <project path="build" name="android_build" remote="boundary-github" revision="imx_r13.4-ga" >
+  <project path="build" name="android_build" remote="boundary-github" revision="ubuntu-12.04-build" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="bionic" name="android_bionic" remote="boundary-github" revision="imx_r13.4-ga" />
@@ -75,6 +75,13 @@
   <project path="system/extras" name="android-system-extras" remote="boundary-github" revision="imx_r13.4-ga" />
   <project path="system/netd" name="android_system_netd" remote="boundary-github" revision="imx_r13.4-ga" />
   <project path="system/vold" name="android_system_vold" remote="boundary-github" revision="imx_r13.4-ga" />
+
+  <!-- Updates to AOSP projects for Ubuntu build -->
+  <project path="external/gtest" name="external_gtest.git" remote="boundary-github" revision="ubuntu-12.04-build" />
+  <project path="external/mesa3d" name="android_external_mesa3d.git" remote="boundary-github" revision="ubuntu-12.04-build" />
+  <project path="external/oprofile" name="platform_external_oprofile.git" remote="boundary-github" revision="ubuntu-12.04-build" />
+  <project path="frameworks/compile/linkloader" name="platform_frameworks_compile_linkloader.git" remote="boundary-github" revision="ubuntu-12.04-build" />
+  <project path="frameworks/compile/slang" name="android_frameworks_compile_slang.git" remote="boundary-github" revision="ubuntu-12.04-build" />
 
   <!-- project path="build" name="platform/build">
     <copyfile src="core/root.mk" dest="Makefile" />
