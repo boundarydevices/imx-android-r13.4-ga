@@ -80,8 +80,8 @@
   <project path="external/gtest" name="external_gtest.git" remote="boundary-github" revision="ubuntu-12.04-build" />
   <project path="external/mesa3d" name="android_external_mesa3d.git" remote="boundary-github" revision="ubuntu-12.04-build" />
   <project path="external/oprofile" name="platform_external_oprofile.git" remote="boundary-github" revision="ubuntu-12.04-build" />
-  <!-- project path="frameworks/compile/linkloader" name="platform_frameworks_compile_linkloader.git" remote="boundary-github" revision="ubuntu-12.04-build" -->
-  <!-- project path="frameworks/compile/slang" name="android_frameworks_compile_slang.git" remote="boundary-github" revision="ubuntu-12.04-build"  -->
+  <project path="frameworks/compile/linkloader" name="platform_frameworks_compile_linkloader.git" remote="boundary-github" revision="ubuntu-12.04-build" />
+  <project path="frameworks/compile/slang" name="android_frameworks_compile_slang.git" remote="boundary-github" revision="ubuntu-12.04-build" />
 
   <!-- project path="build" name="platform/build">
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -211,8 +211,8 @@
   <project path="external/zlib" name="platform/external/zlib" />
   <!-- project path="frameworks/base" name="platform/frameworks/base" -->
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
-  <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
-  <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" />
+  <!-- project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" -->
+  <!-- project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" -->
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <!-- project path="frameworks/media/libvideoeditor" name="platform/frameworks/media/libvideoeditor" -->
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
