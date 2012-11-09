@@ -22,7 +22,7 @@
   <project path="device/fsl-proprietary" name="fsl-proprietary.git" remote="boundary-linode" revision="imx_r13.4-ga" />
   <project path="hardware/imx" name="hardware-imx.git" remote="boundary-linode" revision="imx_r13.4-ga" />
   <project path="external/linux-firmware-imx" name="linux-firmware-imx.git" remote="boundary-linode" revision="imx_r13.4-ga" />
-  <project path="external/fsl_aacp_dec" name="fsl_aacp_dec" remote="boundary-linode" revision="imx_r13.4-ga">
+  <project path="external/fsl_aacp_dec" name="fsl_aacp_dec" remote="boundary-linode" revision="imx_r13.4-ga" />
   <project path="external/fsl_imx_omx" name="fsl_imx_omx.git" remote="boundary-linode" revision="imx_r13.4-ga" />
   <project path="packages/apps/fsl_imx_demo" name="fsl_imx_demo.git" remote="boundary-linode" revision="imx_r13.4-ga" />
 
