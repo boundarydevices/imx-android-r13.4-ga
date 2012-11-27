@@ -15,12 +15,13 @@
 
   <!-- Boundary Devices kernel and U-Boot -->
   <project path="kernel_imx" name="linux-imx6" revision="boundary-imx-android-r13.4-ga" remote="boundary-github" />
-  <project path="bootable/bootloader/uboot-imx" name="u-boot-2009-08" revision="boundary-imx-android-r13.4-ga" remote="boundary-github" />
+  <project path="bootable/bootloader/uboot-imx" name="u-boot-imx6" revision="production" remote="boundary-github" />
+  <project path="device/boundary" name="device/boundary.git" remote="boundary-linode" revision="nitrogen6x" />
 
   <!-- Freescale proprietary -->
   <project path="device/fsl" name="device/fsl.git" remote="boundary-linode" revision="imx_r13.4-ga" />
   <project path="device/fsl-proprietary" name="fsl-proprietary.git" remote="boundary-linode" revision="imx_r13.4-ga" />
-  <project path="hardware/imx" name="hardware-imx.git" remote="boundary-linode" revision="imx_r13.4-ga" />
+  <project path="hardware/imx" name="hardware-imx.git" remote="boundary-linode" revision="add_sgtl" />
   <project path="external/linux-firmware-imx" name="linux-firmware-imx.git" remote="boundary-linode" revision="imx_r13.4-ga" />
   <project path="external/fsl_aacp_dec" name="fsl_aacp_dec" remote="boundary-linode" revision="imx_r13.4-ga" />
   <project path="external/fsl_imx_omx" name="fsl_imx_omx.git" remote="boundary-linode" revision="imx_r13.4-ga" />
@@ -53,7 +54,7 @@
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="boundary-github" revision="imx_r13.4-ga" />
   <project path="frameworks/base" name="android_frameworks_base" remote="boundary-github" revision="imx_r13.4-ga" />
   <project path="frameworks/media/libvideoeditor" name="platform_frameworks_media_libvideoeditor" remote="boundary-github" revision="imx_r13.4-ga" />
-  <project path="hardware/alsa_sound" name="android_hardware_alsa_sound" remote="boundary-github" revision="imx_r13.4-ga" />
+  <project path="hardware/alsa_sound" name="android_hardware_alsa_sound" remote="boundary-github" revision="add_sgtl" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="boundary-github" revision="imx_r13.4-ga" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="boundary-github" revision="imx_r13.4-ga" />
   <project path="hardware/ril" name="android_hardware_ril" remote="boundary-github" revision="imx_r13.4-ga" />
