@@ -7,7 +7,7 @@
            remote="aosp"
            sync-j="4" />
   <remote  name="boundary-linode"
-	   fetch="git://linode.boundarydevices.com/boundary-imx-android-r13.4/" />
+	   fetch="ssh://git@linode.boundarydevices.com/boundary-imx-android-r13.4/" />
   <remote  name="boundary-github"
            fetch="git://github.com/boundarydevices/" />
   <remote  name="github"
