@@ -19,13 +19,13 @@
   <project path="device/boundary" name="android_device_boundary" remote="boundary-github" revision="nitrogen6x" />
 
   <!-- Freescale proprietary -->
-  <project path="device/fsl" name="device/fsl.git" remote="boundary-linode" revision="imx_r13.4-ga" />
-  <project path="device/fsl-proprietary" name="fsl-proprietary.git" remote="boundary-linode" revision="imx_r13.4-ga" />
-  <project path="hardware/imx" name="hardware-imx.git" remote="boundary-linode" revision="add_sgtl" />
-  <project path="external/linux-firmware-imx" name="linux-firmware-imx.git" remote="boundary-linode" revision="imx_r13.4-ga" />
+  <project path="device/fsl" name="device/fsl" remote="boundary-linode" revision="imx_r13.4-ga" />
+  <project path="device/fsl-proprietary" name="fsl-proprietary" remote="boundary-linode" revision="imx_r13.4-ga" />
+  <project path="hardware/imx" name="hardware-imx" remote="boundary-linode" revision="add_sgtl" />
+  <project path="external/linux-firmware-imx" name="linux-firmware-imx" remote="boundary-linode" revision="imx_r13.4-ga" />
   <project path="external/fsl_aacp_dec" name="fsl_aacp_dec" remote="boundary-linode" revision="imx_r13.4-ga" />
-  <project path="external/fsl_imx_omx" name="fsl_imx_omx.git" remote="boundary-linode" revision="imx_r13.4-ga" />
-  <project path="packages/apps/fsl_imx_demo" name="fsl_imx_demo.git" remote="boundary-linode" revision="imx_r13.4-ga" />
+  <project path="external/fsl_imx_omx" name="fsl_imx_omx" remote="boundary-linode" revision="imx_r13.4-ga" />
+  <project path="packages/apps/fsl_imx_demo" name="fsl_imx_demo" remote="boundary-linode" revision="imx_r13.4-ga" />
 
   <!-- Freescale additions, open source -->
   <project path="external/linux-lib" name="android_external_linux-lib" remote="boundary-github" revision="imx_r13.4-ga" />
