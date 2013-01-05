@@ -60,8 +60,8 @@
   <project path="frameworks/base" name="android_frameworks_base" remote="boundary-github" revision="imx_r13.4-ga" />
   <project path="frameworks/media/libvideoeditor" name="platform_frameworks_media_libvideoeditor" remote="boundary-github" revision="imx_r13.4-ga" />
   <project path="hardware/alsa_sound" name="android_hardware_alsa_sound" remote="boundary-github" revision="add_sgtl" />
-  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="boundary-github" revision="nit6x-wifi" />
-  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="boundary-github" revision="imx_r13.4-ga" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="boundary-github" revision="imx_r13.4-ga" />
+  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="boundary-github" revision="nit6x-wifi" />
   <project path="hardware/ril" name="android_hardware_ril" remote="boundary-github" revision="imx_r13.4-ga" />
   <project path="libcore" name="android_libcore" remote="boundary-github" revision="imx_r13.4-ga" />
   <project path="packages/apps/Browser" name="android_browser" remote="boundary-github" revision="imx_r13.4-ga" />
@@ -84,7 +84,7 @@
   <project path="system/vold" name="android_system_vold" remote="boundary-github" revision="imx_r13.4-ga" />
 
   <!-- Boundary Devices utility program -->
-  <project path="external/imx-utils" name="imx-utils" remote="boundary-github" />
+  <project path="external/imx-utils" name="imx-utils" remote="boundary-github" revision="master"/>
 
   <!-- Updates to AOSP projects for Ubuntu build -->
   <project path="external/gtest" name="external_gtest.git" remote="boundary-github" revision="ubuntu-12.04-build" />
