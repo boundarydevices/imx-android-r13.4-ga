@@ -16,7 +16,13 @@
   <!-- Boundary Devices kernel and U-Boot -->
   <project path="kernel_imx" name="linux-imx6" revision="boundary-imx-android-r13.4-ga" remote="boundary-github" />
   <project path="bootable/bootloader/uboot-imx" name="u-boot-imx6" revision="production" remote="boundary-github" />
-  <project path="device/boundary" name="android_device_boundary" remote="boundary-github" revision="nitrogen6x" />
+  <project path="device/boundary" name="android_device_boundary" remote="boundary-github" revision="nit6x-wifi" />
+
+  <!-- TiWi extensions -->
+  <project path="device/ti/panda" name="device/ti/panda" revision="ics-plus-aosp"/>
+  <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" remote="aosp" revision="ics-plus-aosp" />
+  <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" />
+  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" revision="ics-plus-aosp"/>
 
   <!-- Freescale proprietary -->
   <project path="device/fsl" name="device/fsl" remote="boundary-linode" revision="imx_r13.4-ga" />
@@ -32,12 +38,11 @@
   <project path="external/busybox" name="android-busybox" remote="boundary-github" revision="imx_r13.4-ga" />
   <project path="external/efence" name="efence" remote="boundary-github" revision="imx_r13.4-ga" />
   <project path="external/hostapd-0.8.x" name="android_external_hostapd" remote="boundary-github" revision="imx_r13.4-ga" />
-  <project path="external/wpa_supplicant_7" name="wpa_supplicant_7" remote="boundary-github" revision="imx_r13.4-ga" />
   <project path="external/powerdebug" name="powerdebug" remote="boundary-github" revision="imx_r13.4-ga" />
   <project path="system/dispd" name="android_system_dispd" remote="boundary-github" revision="imx_r13.4-ga" />
 
   <!-- Freescale updates to AOSP projects, open source -->
-  <project path="build" name="android_build" remote="boundary-github" revision="ubuntu-12.04-build" >
+  <project path="build" name="android_build" remote="boundary-github" revision="nitrogen6x" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="bionic" name="android_bionic" remote="boundary-github" revision="imx_r13.4-ga" />
@@ -51,11 +56,11 @@
   <project path="external/svox" name="svox" remote="boundary-github" revision="imx_r13.4-ga" />
   <project path="external/tinyalsa" name="tinyalsa" remote="boundary-github" revision="imx_r13.4-ga" />
   <project path="external/webkit" name="android_external_webkit" remote="boundary-github" revision="imx_r13.4-ga" />
-  <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="boundary-github" revision="imx_r13.4-ga" />
+  <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="boundary-github" revision="nit6x-wifi" />
   <project path="frameworks/base" name="android_frameworks_base" remote="boundary-github" revision="imx_r13.4-ga" />
   <project path="frameworks/media/libvideoeditor" name="platform_frameworks_media_libvideoeditor" remote="boundary-github" revision="imx_r13.4-ga" />
   <project path="hardware/alsa_sound" name="android_hardware_alsa_sound" remote="boundary-github" revision="add_sgtl" />
-  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="boundary-github" revision="imx_r13.4-ga" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="boundary-github" revision="nit6x-wifi" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="boundary-github" revision="imx_r13.4-ga" />
   <project path="hardware/ril" name="android_hardware_ril" remote="boundary-github" revision="imx_r13.4-ga" />
   <project path="libcore" name="android_libcore" remote="boundary-github" revision="imx_r13.4-ga" />
@@ -77,6 +82,9 @@
   <project path="system/extras" name="android-system-extras" remote="boundary-github" revision="imx_r13.4-ga" />
   <project path="system/netd" name="android_system_netd" remote="boundary-github" revision="imx_r13.4-ga" />
   <project path="system/vold" name="android_system_vold" remote="boundary-github" revision="imx_r13.4-ga" />
+
+  <!-- Boundary Devices utility program -->
+  <project path="external/imx-utils" name="imx-utils" remote="boundary-github" />
 
   <!-- Updates to AOSP projects for Ubuntu build -->
   <project path="external/gtest" name="external_gtest.git" remote="boundary-github" revision="ubuntu-12.04-build" />
@@ -206,8 +214,6 @@
   <!-- project path="external/webkit" name="platform/external/webkit" -->
   <project path="external/webp" name="platform/external/webp" />
   <project path="external/webrtc" name="platform/external/webrtc" />
-  <project path="external/wpa_supplicant" name="platform/external/wpa_supplicant" />
-  <!-- project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" -->
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/yaffs2" name="platform/external/yaffs2" />
   <project path="external/zlib" name="platform/external/zlib" />
