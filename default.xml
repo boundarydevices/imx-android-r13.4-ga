@@ -49,7 +49,7 @@
   <project path="bootable/recovery" name="android_bootable_recovery" remote="boundary-github" revision="imx_r13.4-ga" />
   <project path="external/alsa-lib" name="android_external_alsa-lib" remote="boundary-github" revision="imx_r13.4-ga" />
   <project path="external/alsa-utils" name="android_external_alsa-utils" remote="boundary-github" revision="imx_r13.4-ga" />
-  <project path="external/bluetooth/bluez" name="android_external_bluez" remote="boundary-github" revision="imx_r13.4-ga" />
+  <project path="external/bluetooth/bluez" name="android_external_bluez" remote="boundary-github" revision="nit6x-wifi" />
   <project path="external/chromium" name="android_external_chromium" remote="boundary-github" revision="imx_r13.4-ga" />
   <project path="external/fsck_msdos" name="fsck_msdos" remote="boundary-github" revision="imx_r13.4-ga" />
   <project path="external/ppp" name="android_external_ppp" remote="boundary-github" revision="imx_r13.4-ga" />
