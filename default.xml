@@ -15,7 +15,7 @@
 
   <!-- Boundary Devices kernel and U-Boot -->
   <project path="kernel_imx" name="linux-imx6" revision="r13.4-1" remote="boundary-github" />
-  <project path="bootable/bootloader/uboot-imx" name="u-boot-imx6" revision="production" remote="boundary-github" />
+  <project path="bootable/bootloader/uboot-imx" name="u-boot-imx6" revision="staging" remote="boundary-github" />
   <project path="device/boundary" name="android_device_boundary" remote="boundary-github" revision="r13.4-1" />
 
   <!-- TiWi extensions -->
