@@ -13,19 +13,24 @@
            sync-j="4" />
 
   <!-- Boundary Devices kernel and U-Boot -->
-  <project path="kernel_imx" name="linux-imx6" revision="r13.4-1" remote="boundary-github" />
+  <project path="kernel_imx" name="linux-imx6" revision="boundary-jb4.2.2-staging" remote="boundary-github" />
   <project path="bootable/bootloader/uboot-imx" name="u-boot-imx6" revision="staging" remote="boundary-github" />
-  <!-- not yet project path="device/boundary" name="android_device_boundary" remote="boundary-github" revision="r13.4-1" -->
+  <project path="device/boundary" name="android_device_boundary" remote="boundary-github" revision="boundary-imx_jb4.2.2_1.0.0-ga" />
 
   <!-- Freescale proprietary -->
-  <project path="device/fsl" name="device/fsl" remote="boundary-linode" revision="imx_jb4.2.2_1.0.0-ga" />
+  <project path="device/fsl" name="device/fsl" remote="boundary-linode" revision="boundary-imx_jb4.2.2_1.0.0-ga" />
   <project path="device/fsl-proprietary" name="fsl-proprietary" remote="boundary-linode" revision="imx_jb4.2.2_1.0.0-ga" />
-  <project path="hardware/imx" name="hardware-imx" remote="boundary-linode" revision="imx_jb4.2.2_1.0.0-ga" />
+  <project path="hardware/imx" name="hardware-imx" remote="boundary-linode" revision="boundary-imx_jb4.2.2_1.0.0-ga" />
   <project path="external/linux-firmware-imx" name="linux-firmware-imx" remote="boundary-linode" revision="imx_jb4.2.2_1.0.0-ga" />
-  <project path="packages/apps/fsl_imx_demo" name="fsl_imx_demo" remote="boundary-linode" revision="imx_jb4.2.2_1.0.0-ga" />
+  <project path="packages/apps/fsl_imx_demo" name="fsl_imx_demo" remote="boundary-github" revision="imx_jb4.2.2_1.0.0-ga" />
   <project path="external/fsl_imx_omx" name="fsl_imx_omx" remote="boundary-linode" revision="imx_jb4.2.2_1.0.0-ga" />
   <!-- ??? project path="external/fsl_aacp_dec" name="fsl_aacp_dec" remote="boundary-linode" revision="imx_r13.4-ga" -->
-  
+
+  <!-- Freescale additions, open source -->
+  <project path="external/linux-lib" name="android_external_linux-lib" remote="boundary-github" revision="imx_jb4.2.2_1.0.0-ga" />
+  <project path="external/busybox" name="android-busybox" remote="boundary-github" revision="imx_jb4.2.2_1.0.0-ga" />
+  <project path="external/powerdebug" name="powerdebug" remote="boundary-github" revision="imx_jb4.2.2_1.0.0-ga" />
+
   <!-- Freescale updates to AOSP -->
   <project path="build" name="android_build" remote="boundary-github" revision="imx_jb4.2.2_1.0.0-ga" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -129,7 +134,6 @@
   <project path="external/genext2fs" name="platform/external/genext2fs" remote="aosp" />
   <project path="external/giflib" name="platform/external/giflib" remote="aosp" />
   <project path="external/google-diff-match-patch" name="platform/external/google-diff-match-patch" remote="aosp" />
-  <project path="external/grub" name="platform/external/grub" remote="aosp" />
   <project path="external/gtest" name="platform/external/gtest" groups="pdk" remote="aosp" />
   <project path="external/guava" name="platform/external/guava" remote="aosp" />
   <project path="external/hamcrest" name="platform/external/hamcrest" remote="aosp" />
