@@ -13,7 +13,7 @@
            sync-j="4" />
 
   <!-- Boundary Devices kernel and U-Boot -->
-  <project path="kernel_imx" name="linux-imx6" revision="boundary-jb4.2.2-staging" remote="boundary-github" />
+  <project path="kernel_imx" name="linux-imx6" revision="boundary-jb4.2.2" remote="boundary-github" />
   <project path="bootable/bootloader/uboot-imx" name="u-boot-imx6" revision="staging" remote="boundary-github" />
   <project path="device/boundary" name="android_device_boundary" remote="boundary-github" revision="boundary-imx_jb4.2.2_1.0.0-ga" />
 
