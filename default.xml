@@ -25,7 +25,7 @@
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" revision="ics-plus-aosp"/>
 
   <!-- Boundary extensions and fixes for AOSP -->
-  <project path="external/srec" name="android_external_srec" remote="boundary-github" />
+  <project path="external/srec" name="android_external_srec" remote="boundary-github" revision="r13.4-1" />
 
   <!-- Freescale proprietary -->
   <project path="device/fsl" name="device/fsl" remote="boundary-linode" revision="r13.4-1" />
