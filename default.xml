@@ -24,6 +24,9 @@
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" revision="ics-plus-aosp"/>
 
+  <!-- Boundary extensions and fixes for AOSP -->
+  <project path="external/srec" name="android_external_srec" remote="boundary-github" />
+
   <!-- Freescale proprietary -->
   <project path="device/fsl" name="device/fsl" remote="boundary-linode" revision="r13.4-1" />
   <project path="device/fsl-proprietary" name="fsl-proprietary" remote="boundary-linode" revision="r13.4-1" />
@@ -200,7 +203,6 @@
   <project path="external/sonivox" name="platform/external/sonivox" />
   <project path="external/speex" name="platform/external/speex" />
   <project path="external/sqlite" name="platform/external/sqlite" />
-  <project path="external/srec" name="platform/external/srec" />
   <project path="external/srtp" name="platform/external/srtp" />
   <project path="external/stlport" name="platform/external/stlport" />
   <project path="external/strace" name="platform/external/strace" />
