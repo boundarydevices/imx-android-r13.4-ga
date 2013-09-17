@@ -17,6 +17,9 @@
   <project path="bootable/bootloader/uboot-imx" name="u-boot-imx6" revision="staging" remote="boundary-github" />
   <project path="device/boundary" name="android_device_boundary" remote="boundary-github" revision="boundary-imx_jb4.2.2_1.0.0-ga" />
 
+  <!-- Boundary Devices open source -->
+  <project path="external/devregs" name="devregs" revision="master" remote="boundary-github" />
+
   <!-- Freescale proprietary -->
   <project path="device/fsl" name="device/fsl" remote="boundary-linode" revision="boundary-imx_jb4.2.2_1.0.0-ga" />
   <project path="device/fsl-proprietary" name="fsl-proprietary" remote="boundary-linode" revision="imx_jb4.2.2_1.0.0-ga" />
