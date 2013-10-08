@@ -12,6 +12,10 @@
            remote="aosp"
            sync-j="4" />
 
+  <!-- Boundary Devices kernel and U-Boot -->
+  <project path="kernel_imx" name="linux-imx6" revision="boundary-jb4.3_1.0.0-beta" remote="boundary-github" />
+  <project path="bootable/bootloader/uboot-imx" name="u-boot-imx6" revision="staging" remote="boundary-github" />
+
   <!-- projects added by Freescale -->
   <project path="device/fsl" name="device/fsl" remote="boundary-linode" revision="imx_jb4.3_1.0.0-beta" />
   <project path="device/fsl-proprietary" name="fsl-proprietary" remote="boundary-linode" revision="imx_jb4.3_1.0.0-beta" />
