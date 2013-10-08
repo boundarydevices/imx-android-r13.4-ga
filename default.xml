@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".."
+           fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
   <remote  name="boundary-linode"
 	   fetch="ssh://git@linode.boundarydevices.com/boundary-imx-android-r13.4/" />
