@@ -29,6 +29,7 @@
   <project path="external/powerdebug" name="powerdebug" remote="boundary-github" revision="imx_jb4.3_1.0.0-beta" />
   <project path="hardware/imx" name="hardware-imx" remote="boundary-linode" revision="imx_jb4.3_1.0.0-beta" />
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="boundary-github" revision="imx_jb4.3_1.0.0-beta" />
+  <project path="hardware/realtek" name="android_hardware_realtek" remote="boundary-github" revision="imx_jb4.3_1.0.0-beta" />
   <project path="packages/apps/fsl_imx_demo" name="fsl_imx_demo" remote="boundary-github" revision="imx_jb4.3_1.0.0-beta" />
 
   <!-- projects updated by Freescale -->
