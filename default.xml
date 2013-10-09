@@ -296,7 +296,6 @@
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" revision="e165f7b27e1ecd9582c3e161a1eb932c25057c96" />
   <project path="hardware/qcom/power" name="platform/hardware/qcom/power" groups="qcom" revision="e87aaaf637d7f9f756cff57cfbbfdb44c20adbeb" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" revision="07c5bcdb36158e22d33bac02eecd83d4ff1fb2f8" />
-  <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="qcom" revision="8bff0c0323c62c34621a818dc1e2f863589aab00" />
   <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" groups="exynos5" revision="363cef472e275f4900dc4916acd03718c7d57284" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" revision="3bbaa29066a684d01df42ddf0365266e59f2dc44" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" revision="2bfd180d5257d72f7c22c80741e6b03470f3aa60" />
