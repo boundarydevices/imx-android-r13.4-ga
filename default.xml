@@ -16,6 +16,9 @@
   <project path="kernel_imx" name="linux-imx6" revision="boundary-jb4.3_1.0.0-beta" remote="boundary-github" />
   <project path="bootable/bootloader/uboot-imx" name="u-boot-imx6" revision="jb4.3_1.0.0-beta" remote="boundary-github" />
 
+  <!-- Boundary Devices machine layer -->
+  <project path="device/boundary" name="android_device_boundary" remote="boundary-github" revision="boundary-imx_jb4.3_1.0.0-beta" />
+
   <!-- projects added by Freescale -->
   <project path="device/fsl" name="device/fsl" remote="boundary-linode" revision="imx_jb4.3_1.0.0-beta" />
   <project path="device/fsl-proprietary" name="fsl-proprietary" remote="boundary-linode" revision="imx_jb4.3_1.0.0-beta" />
@@ -72,31 +75,11 @@
   <project path="developers/docs" name="platform/developers/docs" revision="c0b835ddd9acc27176dc9a0f7d1aa2faf5d51806" />
   <project path="developers/samples/android" name="platform/developers/samples/android" revision="69faf0c9922afd50bb4e790a4e08b5b4e8eb39b1" />
   <project path="development" name="platform/development" revision="38d9178d358b860ac99bcefb1c65a6a2b6ec098d" />
-  <project path="device/asus/deb" name="device/asus/deb" groups="device,flo" revision="3f73173fcc2d8671b60591276a6072dade44131a" />
-  <project path="device/asus/flo" name="device/asus/flo" groups="device,flo" revision="16ebedbb56f8a7ad759a9a7346ecff3744341e3b" />
-  <project path="device/asus/flo-kernel" name="device/asus/flo-kernel" groups="device,flo" revision="79816e3f9dd6b9ba6ae4623f6d1274a973abea9f" />
-  <project path="device/asus/grouper" name="device/asus/grouper" groups="device,grouper" revision="0bec6ce6b3713aad390c2568d5f6b07c92a53b6a" />
-  <project path="device/asus/tilapia" name="device/asus/tilapia" groups="device,grouper" revision="2553ce98d86678fc39328df126e4333ff99dfcdc" />
   <project path="device/common" name="device/common" revision="d50e04a62394cbf5796275c103be7050e68c9399" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" revision="e8a318f7690092e639ba88891606f4183e846d3f" />
   <project path="device/generic/common" name="device/generic/common" groups="pdk" revision="11c092a6cbfcf6207f07a9a8e3398e747e7f5461" />
   <project path="device/generic/goldfish" name="device/generic/goldfish" groups="pdk" revision="d9fcbd08b0413fedc8219237534ce31d6b7fd2f5" />
-  <project path="device/generic/mips" name="device/generic/mips" groups="pdk" revision="764fe788f7e9cefdd3be6ea29847f19a4f818f94" />
-  <project path="device/generic/mini-emulator-armv7-a-neon" name="device/generic/mini-emulator-armv7-a-neon" groups="pdk" revision="40683ac280c46bdff5680feaa65352a0384e8218" />
-  <project path="device/generic/mini-emulator-mips" name="device/generic/mini-emulator-mips" groups="pdk" revision="0eeb3d30bd915c5f2f457792af4455c49db93666" />
-  <project path="device/generic/mini-emulator-x86" name="device/generic/mini-emulator-x86" groups="pdk" revision="e695166a6b77112d57f2d4a865aa2ec68f7b3f9d" />
-  <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" revision="abc5159a3ca9dbb5c7e364a1eab99901a4440ac5" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" revision="7dfe7f89a3b174709c773fe319531006e46440d9" />
-  <project path="device/lge/mako" name="device/lge/mako" groups="device,mako" revision="c65102d8832744e7b061d6d96e9c02ba91509dde" />
-  <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" revision="20150788734dac89a0b8f265a8f790cf53e36020" />
-  <project path="device/sample" name="device/sample" groups="pdk" revision="36d09b423d8bea0f329053e2596200aacc6ad17f" />
-  <project path="device/samsung/maguro" name="device/samsung/maguro" groups="device,tuna" revision="b40835e5ba7c62565499a87ee0e2b8663e2fb1b2" />
-  <project path="device/samsung/manta" name="device/samsung/manta" groups="device,manta" revision="aa65e41bb5e0c7c97ba582e7f07c0d465cea0d5a" />
-  <project path="device/samsung/toro" name="device/samsung/toro" groups="device,tuna" revision="6976c3853afd70a7b4fd7a3330823c774c604e66" />
-  <project path="device/samsung/toroplus" name="device/samsung/toroplus" groups="device,tuna" revision="0839ae958f8e883e77aae14323a31e98a14e0c00" />
-  <project path="device/samsung/tuna" name="device/samsung/tuna" groups="device,tuna" revision="34c9869a8bcf1af20fc9889b2bd98c8d56a1cd33" />
-  <project path="device/samsung_slsi/arndale" name="device/samsung_slsi/arndale" groups="device" revision="44fc65d2eff002d48acd93a348e1dd5cc19e8a6e" />
-  <project path="device/ti/panda" name="device/ti/panda" groups="device" revision="6c7d339e995eeabd24355cd0c2c30a792ae37c8d" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" revision="7ebfe0de4f9e0fc7a4c7b39864bd13a8a80e141c" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" revision="dd68dcdb756966b80ad86268d7fe45b3434374c9" />
   <project path="external/android-clat" name="platform/external/android-clat" revision="0d7837b9dddce300713bfcf2b84aecf2e360a502" />
