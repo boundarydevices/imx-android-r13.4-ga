@@ -22,6 +22,7 @@
   <!-- Boundary Devices updates to other components -->
   <project path="device/fsl" name="device/fsl" remote="boundary-linode" revision="boundary-imx_jb4.3_1.0.0-beta" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="boundary-github" revision="boundary-imx_jb4.3_1.0.0-beta" />
+  <project path="hardware/imx" name="hardware-imx" remote="boundary-linode" revision="boundary-imx_jb4.3_1.0.0-beta" />
   <project path="system/core" name="android_system_core" remote="boundary-github" revision="boundary-imx_jb4.3_1.0.0-beta" />
 
   <!-- projects added by Freescale -->
@@ -34,7 +35,6 @@
   <project path="external/mtd-utils" name="android_external_mtd-utils" remote="boundary-github" revision="imx_jb4.3_1.0.0-beta" />
   <project path="external/ntfs-3g" name="ntfs-3g" remote="boundary-github" revision="imx_jb4.3_1.0.0-beta" />
   <project path="external/powerdebug" name="powerdebug" remote="boundary-github" revision="imx_jb4.3_1.0.0-beta" />
-  <project path="hardware/imx" name="hardware-imx" remote="boundary-linode" revision="imx_jb4.3_1.0.0-beta" />
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="boundary-github" revision="imx_jb4.3_1.0.0-beta" />
   <project path="hardware/realtek" name="android_hardware_realtek" remote="boundary-github" revision="imx_jb4.3_1.0.0-beta" />
   <project path="packages/apps/fsl_imx_demo" name="fsl_imx_demo" remote="boundary-github" revision="imx_jb4.3_1.0.0-beta" />
