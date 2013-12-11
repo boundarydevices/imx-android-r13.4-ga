@@ -167,7 +167,6 @@
   <project path="external/libppp" name="platform/external/libppp" revision="706e567fc5ff6b79738a5f470e5aa7b2cae76459" />
   <project path="external/libselinux" name="platform/external/libselinux" groups="pdk" revision="dae85f9e3e7f0e531138a57f1b13e646b78b1919" />
   <project path="external/libsepol" name="platform/external/libsepol" groups="pdk" revision="b0e0162a246f2c051427154909c0ecd694cc4805" />
-  <project path="external/libunwind" name="platform/external/libunwind" />
   <project path="external/libusb" name="platform/external/libusb" revision="2801917fe150393d4f4a354165fe89550ae22613" />
   <project path="external/libusb_aah" name="platform/external/libusb_aah" groups="libusb_aah" revision="14419c9d3d0a82243f69238ce927edb52bf3d727" />
   <project path="external/libusb-compat" name="platform/external/libusb-compat" revision="94867ba54eb7faa8efca81cf2214d00bb9143d27" />
@@ -182,7 +181,6 @@
   <project path="external/marisa-trie" name="platform/external/marisa-trie" revision="629ed059b1e85cd8e4de363d8b3dc53c15c3e08a" />
   <project path="external/markdown" name="platform/external/markdown" revision="6f2e3554ae38cc90518d32e02cb57d05988270a6" />
   <project path="external/mdnsresponder" name="platform/external/mdnsresponder" groups="pdk" revision="c46f53f5e072f23051c4eedef730386f7634dc11" />
-  <project path="external/mesa3d" name="platform/external/mesa3d" />
   <project path="external/mksh" name="platform/external/mksh" groups="pdk" revision="f8c396c4d446a038358106a301b329607a04633d" />
   <project path="external/mockito" name="platform/external/mockito" revision="34f80a94e45f7110ec3444c1d0ecfacc194d009a" />
   <project path="external/mockwebserver" name="platform/external/mockwebserver" revision="d0438f5e945bdb79e68039a8222531cbfdc1cc27" />
@@ -213,7 +211,6 @@
   <project path="external/replicaisland" name="platform/external/replicaisland" revision="99e2e54c5d036048caf09bb05eea0969de093104" />
   <project path="external/robolectric" name="platform/external/robolectric" revision="4252a662f88e0d13829e106831d66b3f28c9cb70" />
   <project path="external/safe-iop" name="platform/external/safe-iop" groups="pdk" revision="aa0725fb1da35e47676b6da30009322eb5ed59be" />
-  <project path="external/scrypt" name="platform/external/scrypt" />
   <project path="external/sepolicy" name="platform/external/sepolicy" groups="pdk" revision="274d2927a7ccbfd266c83d6da5e9e2772805fbd5" />
   <project path="external/skia" name="platform/external/skia" />
   <project path="external/smack" name="platform/external/smack" revision="d7955ce24d294fb2014c59d11fca184471056f44" />
@@ -302,7 +299,6 @@
   <project path="packages/apps/Email" name="platform/packages/apps/Email" revision="270a422efd5744b4b15cecbcfc0c349131d0c767" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" revision="562415552f332d661fab66482569e0b477c6399d" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" revision="e688d4d402ed98a6c82a1706c16894e6d59f458d" />
-  <project path="packages/apps/InCallUI" name="platform/packages/apps/InCallUI" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" revision="2cac355dbc855bdf7c4e729c5c65f63679269a26" />
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" revision="88cf19181afeb76c5c1444703ee402bf827238d9" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
@@ -338,7 +334,6 @@
   <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" revision="2862a275e02baca01663b5ba0f5043ff8208b3b6" />
   <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" revision="dd5f6f03990d50bbb353b2c4d77a90f8211b5a74" />
   <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" revision="6e0a80f6faed6191acc8ce1b6c79eada09e9e042" />
-  <project path="packages/services/Telephony" name="platform/packages/services/Telephony" />
   <project path="packages/wallpapers/Galaxy4" name="platform/packages/wallpapers/Galaxy4" revision="ca92fdc25da99afdfe33447aefb2cd270c5b5e4d" />
   <project path="packages/wallpapers/HoloSpiral" name="platform/packages/wallpapers/HoloSpiral" revision="b02a5fb2e613245e2496ae8cab6a2cc360388274" />
   <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" revision="4643e72ab8e013516e0b2433ca71a60c9b1528c6" />
@@ -349,16 +344,8 @@
   <project path="pdk" name="platform/pdk" groups="pdk" revision="17c9966aeb7dd3bd472e7e9bc70735dee1fc72c8" />
   <project path="prebuilts/clang/darwin-x86/3.1" name="platform/prebuilts/clang/darwin-x86/3.1" groups="pdk,darwin" revision="426233405bef3c7c825095ab14256c3773894b9b" />
   <project path="prebuilts/clang/darwin-x86/3.2" name="platform/prebuilts/clang/darwin-x86/3.2" groups="pdk,darwin" revision="af856d77b3cbb1f6afccdc531bee991403c28907" />
-  <project path="prebuilts/clang/darwin-x86/arm/3.3" name="platform/prebuilts/clang/darwin-x86/arm/3.3" groups="darwin,arm" />
-  <project path="prebuilts/clang/darwin-x86/host/3.3" name="platform/prebuilts/clang/darwin-x86/host/3.3" groups="darwin" />
-  <project path="prebuilts/clang/darwin-x86/mips/3.3" name="platform/prebuilts/clang/darwin-x86/mips/3.3" groups="darwin,mips" />
-  <project path="prebuilts/clang/darwin-x86/x86/3.3" name="platform/prebuilts/clang/darwin-x86/x86/3.3" groups="darwin,x86" />
   <project path="prebuilts/clang/linux-x86/3.1" name="platform/prebuilts/clang/linux-x86/3.1" groups="pdk,linux" revision="e95b4ce22c825da44d14299e1190ea39a5260bde" />
   <project path="prebuilts/clang/linux-x86/3.2" name="platform/prebuilts/clang/linux-x86/3.2" groups="pdk,linux" revision="471afab478649078ad7c75ec6b252481a59e19b8" />
-  <project path="prebuilts/clang/linux-x86/arm/3.3" name="platform/prebuilts/clang/linux-x86/arm/3.3" groups="linux,arm" />
-  <project path="prebuilts/clang/linux-x86/host/3.3" name="platform/prebuilts/clang/linux-x86/host/3.3" groups="linux" />
-  <project path="prebuilts/clang/linux-x86/mips/3.3" name="platform/prebuilts/clang/linux-x86/mips/3.3" groups="linux,mips" />
-  <project path="prebuilts/clang/linux-x86/x86/3.3" name="platform/prebuilts/clang/linux-x86/x86/3.3" groups="linux,x86" />
   <project path="prebuilts/devtools" name="platform/prebuilts/devtools" revision="42f8ef3570f43414858a974ddd593ac13ab02163" />
   <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" groups="pdk" revision="76f99d69c6843137da55d1a28c81920ac453ec15" />
   <project path="prebuilts/eclipse-build-deps" name="platform/prebuilts/eclipse-build-deps" groups="notdefault,eclipse" />
@@ -373,7 +360,6 @@
   <project path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.7" name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.7" groups="pdk,darwin,mips" revision="59ba91ee388518529644c33f5df50050e41d2051" />
   <project path="prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" groups="pdk,darwin,x86" revision="042d6130038c95be86fcea5dddda2db07bd5aa27" />
   <project path="prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.7" name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.7" groups="pdk,darwin,x86" revision="b8d6b5d787751a78c0a1d38f209037a933b2371b" />
-  <project path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.7" name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.7" groups="pdk,darwin,x86" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" groups="pdk,linux,arm" revision="d73a051b1fd1d98f5c2463354fb67898f0090bdb" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="pdk,linux,arm" revision="8b880805d454664b3eed11d0f053cdeafa1ff06e" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" groups="pdk,linux,arm" revision="3d37334606f36c1639a1caf928994c56b360eeb1" />
@@ -385,13 +371,8 @@
   <project path="prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.7" name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.7" groups="pdk,linux,mips" revision="54c0e28f018240eb8951fb4fdb680e652bebd0cf" />
   <project path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" groups="pdk,linux,x86" revision="b9ebba077c2f62e930b16240d7f3ad61f1ad1dfc" />
   <project path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7" groups="pdk,linux,x86" revision="c7931763d41be602407ed9d71e2c0292c6597e00" />
-  <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.7" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.7" groups="pdk,linux,x86" />
-  <project path="prebuilts/gradle-plugin" name="platform/prebuilts/gradle-plugin" />
-  <project path="prebuilts/maven_repo/android" name="platform/prebuilts/maven_repo/android" />
   <project path="prebuilts/misc" name="platform/prebuilts/misc" groups="pdk" revision="3edd781b33ee41fd4e0aad59492fcacee275ab57" />
   <project path="prebuilts/ndk" name="platform/prebuilts/ndk" groups="pdk" revision="4681e74532985ab2d69c920267428b82305f8196" />
-  <project path="prebuilts/python/darwin-x86/2.7.5" name="platform/prebuilts/python/darwin-x86/2.7.5" groups="darwin" />
-  <project path="prebuilts/python/linux-x86/2.7.5" name="platform/prebuilts/python/linux-x86/2.7.5" groups="linux" />
   <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" groups="pdk" revision="ec4a882d411d0d4ceadc5912ab4ce6fd4df23ab7" />
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" revision="8353ee43abbdcbf11fdb8c7befcbcdbdc74c663c" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" revision="31ec211efafde89ab39472d7bd040f00d1b71945" />
