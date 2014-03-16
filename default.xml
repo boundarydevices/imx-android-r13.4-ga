@@ -19,7 +19,7 @@
   <project path="bootable/bootloader/uboot-imx" name="u-boot-imx6" revision="production" remote="boundary-github" />
 
   <!-- Boundary Devices machine layer -->
-  <project path="device/boundary" name="android_device_boundary" remote="boundary-github" revision="tiwi-bluetooth" />
+  <project path="device/boundary" name="android_device_boundary" remote="boundary-github" revision="jb4.3-koush" />
 
   <!-- Boundary Devices updates to other components -->
   <project path="device/fsl" name="device/fsl" remote="boundary-linode" revision="tiwi-bluetooth" />
@@ -28,6 +28,7 @@
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="boundary-github" revision="boundary-imx_jb4.3_1.0.0-ga" />
   <project path="hardware/ti/wpan" name="hardware/ti/wpan" remote="boundary-linode" revision="boundary-imx_jb4.3_1.0.0-ga" />
   <project path="system/core" name="android_system_core" remote="boundary-github" revision="boundary-imx_jb4.3_1.0.0-ga" />
+  <project path="system/extras" name="android-system-extras" remote="boundary-github" revision="jb4.3-koush" groups="pdk" />
   <project path="build" name="android_build" remote="boundary-github" revision="boundary-imx_jb4.3_1.0.0-ga" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
@@ -409,7 +410,6 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" />
   <project path="system/bluetooth" name="platform/system/bluetooth" groups="pdk" />
-  <project path="system/extras" name="platform/system/extras" groups="pdk" />
   <project path="system/media" name="platform/system/media" groups="pdk" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
