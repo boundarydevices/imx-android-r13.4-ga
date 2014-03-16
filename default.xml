@@ -35,6 +35,8 @@
   <!-- projects added by Boundary -->
   <project path="external/devregs" name="devregs" remote="boundary-github" revision="master" />
   <project path="external/i2c-tools" name="suapapa/i2c-tools" remote="github" revision="android" />
+  <project path="external/koush/Superuser" name="koush/Superuser" remote="github" revision="master" />
+  <project path="external/koush/Widgets" name="koush/Widgets" remote="github" revision="master" />
 
   <!-- projects added by Freescale -->
   <project path="device/fsl-proprietary" name="fsl-proprietary" remote="boundary-linode" revision="imx_jb4.3_1.0.0-ga" />
